@@ -9,7 +9,8 @@
     "url": "https://shelf.io"
   },
   "files": [
-    "backend.json"
+    "backend.json",
+    "frontend.json"
   ],
   "husky": {
     "hooks": {

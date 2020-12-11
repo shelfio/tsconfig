@@ -8,11 +8,23 @@ $ yarn add --dev @shelf/tsconfig
 
 ## Usage
 
-In your `tsconfig.json`
+In your `tsconfig.json`:
+
+### Backend
 
 ```json
 {
   "extends": "@shelf/tsconfig/backend",
+  "exclude": ["node_modules"],
+  "include": ["src"]
+}
+```
+
+### Frontend
+
+```json
+{
+  "extends": "@shelf/tsconfig/frontend",
   "exclude": ["node_modules"],
   "include": ["src"]
 }
