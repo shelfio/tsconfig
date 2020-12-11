@@ -4,6 +4,7 @@
     "esModuleInterop": true,
     "isolatedModules": true,
     "module": "commonjs",
+    "resolveJsonModule": true,
     "skipLibCheck": true,
     "sourceMap": false,
     "target": "esnext"
