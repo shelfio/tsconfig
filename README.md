@@ -12,7 +12,9 @@ In your `tsconfig.json`
 
 ```json
 {
-  "extends": "@shelf/tsconfig/backend"
+  "extends": "@shelf/tsconfig/backend",
+  "exclude": ["node_modules"],
+  "include": ["src"]
 }
 ```
 
