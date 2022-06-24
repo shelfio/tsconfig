@@ -4,10 +4,10 @@
     "esModuleInterop": true,
     "isolatedModules": true,
     "module": "commonjs",
-    "noImplicitAny": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "sourceMap": false,
-    "target": "esnext"
+    "target": "esnext",
+    "strict": true
   }
 }
