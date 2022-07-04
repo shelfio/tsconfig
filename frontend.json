@@ -17,8 +17,9 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "sourceMap": false,
-    "strict": false,
+    "strict": true,
     "strictNullChecks": true,
-    "target": "esnext"
+    "target": "esnext",
+    "noImplicitAny": true,
   }
 }
