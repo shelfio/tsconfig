@@ -26,7 +26,7 @@
   },
   "prettier": "@shelf/prettier-config",
   "devDependencies": {
-    "@shelf/prettier-config": "0.0.7",
+    "@shelf/prettier-config": "1.0.0",
     "@types/node": "12",
     "husky": "8.0.3",
     "lint-staged": "10.5.4",
