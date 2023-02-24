@@ -6,7 +6,7 @@
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "lib": ["dom", "es5", "es6", "es2015", "es7", "es2018", "es2021"],
+    "lib": ["es5", "es6", "es2015", "es7", "es2018", "es2021", "es2022.full"],
     "module": "esnext",
     "moduleResolution": "node",
     "noEmit": true,
