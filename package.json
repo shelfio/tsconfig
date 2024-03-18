@@ -13,12 +13,6 @@
     "backend.json",
     "frontend.json"
   ],
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "post-commit": "git update-index --again"
-    }
-  },
   "lint-staged": {
     "*.{html,md,yml}": [
       "prettier --write",
@@ -28,15 +22,18 @@
   "prettier": "@shelf/prettier-config",
   "devDependencies": {
     "@shelf/prettier-config": "1.0.0",
-    "@types/node": "12",
-    "husky": "8.0.3",
-    "lint-staged": "10.5.4",
-    "prettier": "2.8.8"
+    "@types/node": "20.11.28",
+    "husky": "9.0.11",
+    "lint-staged": "15.2.2",
+    "prettier": "3.2.5"
   },
   "engines": {
     "node": ">=12"
   },
   "publishConfig": {
     "access": "public"
+  },
+  "scripts": {
+    "prepare": "husky"
   }
 }
