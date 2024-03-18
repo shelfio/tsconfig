@@ -2,6 +2,7 @@
   "name": "@shelf/tsconfig",
   "version": "0.1.0",
   "description": "tsconfig",
+  "type": "module",
   "license": "MIT",
   "author": {
     "name": "Vlad Holubiev",
