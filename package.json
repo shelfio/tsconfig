@@ -21,8 +21,8 @@
     "@shelf/prettier-config": "1.0.0",
     "@types/node": "20.11.28",
     "husky": "9.0.11",
-    "lint-staged": "15.2.2",
-    "prettier": "3.2.5"
+    "lint-staged": "15.2.7",
+    "prettier": "3.3.2"
   },
   "engines": {
     "node": ">=12"
