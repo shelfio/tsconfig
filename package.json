@@ -13,9 +13,6 @@
     "backend.json",
     "frontend.json"
   ],
-  "lint-staged": {
-    "*.{html,md,yml,json}": "prettier --write"
-  },
   "prettier": "@shelf/prettier-config",
   "devDependencies": {
     "@shelf/prettier-config": "1.0.0",
