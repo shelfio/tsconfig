@@ -29,5 +29,8 @@
   },
   "scripts": {
     "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{html,md,yml,json}": "prettier --write"
   }
 }
