@@ -1,6 +1,7 @@
 {
   "name": "@shelf/tsconfig",
   "version": "0.1.0",
+  "packageManager": "pnpm@10.32.1",
   "description": "tsconfig",
   "type": "module",
   "license": "MIT",
@@ -13,24 +14,29 @@
     "backend.json",
     "frontend.json"
   ],
-  "prettier": "@shelf/prettier-config",
   "devDependencies": {
-    "@shelf/prettier-config": "1.0.0",
     "@types/node": "20.11.28",
     "husky": "9.0.11",
     "lint-staged": "15.2.7",
-    "prettier": "3.3.2"
+    "oxfmt": "0.42.0",
+    "typescript": "6.0.2"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=22.18",
+    "pnpm": "10.32.1"
   },
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
+    "format": "oxfmt",
+    "lint:ci": "oxfmt --check",
+    "test": "pnpm run test:backend && pnpm run test:frontend",
+    "test:backend": "tsc --pretty false -p test/fixtures/backend/tsconfig.json --noEmit",
+    "test:frontend": "tsc --pretty false -p test/fixtures/frontend/tsconfig.json --noEmit",
     "prepare": "husky"
   },
   "lint-staged": {
-    "*.{html,md,yml,json}": "prettier --write"
+    "*.{html,json,md,ts,yaml,yml}": "oxfmt"
   }
 }

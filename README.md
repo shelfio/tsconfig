@@ -3,7 +3,7 @@
 ## Install
 
 ```
-$ yarn add --dev @shelf/tsconfig
+$ pnpm add -D @shelf/tsconfig
 ```
 
 ## Usage
@@ -34,9 +34,7 @@ In your `tsconfig.json`:
 
 ```sh
 $ git checkout master
-$ yarn version
-$ yarn publish
-$ git push origin master --tags
+$ pnpx np
 ```
 
 ## License

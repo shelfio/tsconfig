@@ -9,6 +9,7 @@
     "sourceMap": false,
     "target": "esnext",
     "strict": true,
+    "types": ["node"],
     "noErrorTruncation": true
   }
 }
