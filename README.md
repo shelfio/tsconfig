@@ -30,12 +30,19 @@ In your `tsconfig.json`:
 }
 ```
 
-## Publish
+## How to release a new version
+
+Bump the version on the same branch that contains the changes you want to publish:
 
 ```sh
-$ git checkout master
-$ pnpx np
+pnpm version major|minor|patch|x.y.z
 ```
+
+Use `major`, `minor`, `patch`, a prerelease increment, or an exact `x.y.z` version.
+
+`pnpm version` creates the version commit automatically. Push the branch, open a
+PR to `master`, and merge it. After the merge, centralized CircleCI publishes the
+new version to npm using OIDC.
 
 ## License
 
