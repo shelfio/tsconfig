@@ -1,7 +1,7 @@
 {
   "name": "@shelf/tsconfig",
   "version": "0.2.0",
-  "packageManager": "pnpm@11.18.0",
+  "packageManager": "pnpm@11.19.0",
   "description": "tsconfig",
   "type": "module",
   "license": "MIT",
