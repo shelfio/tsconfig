@@ -5,3 +5,4 @@ minimumReleaseAgeExclude:
   - '@shelf/*'
 ignoreScripts: true
 preferFrozenLockfile: true
+pmOnFail: ignore
