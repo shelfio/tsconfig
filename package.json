@@ -37,6 +37,6 @@
     "prepare": "husky"
   },
   "lint-staged": {
-    "*.{html,json,md,ts,yaml,yml}": "oxfmt"
+    "*.{html,json,md,ts,yaml,yml}": "oxfmt --no-error-on-unmatched-pattern"
   }
 }
