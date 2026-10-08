@@ -3,6 +3,5 @@ blockExoticSubdeps: true
 minimumReleaseAge: 20160
 minimumReleaseAgeExclude:
   - '@shelf/*'
-ignoreScripts: true
 preferFrozenLockfile: true
 pmOnFail: ignore
